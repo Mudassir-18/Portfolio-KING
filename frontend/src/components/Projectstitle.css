@@ -1,0 +1,17 @@
+#projecttitle{
+ color: white; 
+ visibility:visible;  
+ z-index: 10;
+}
+.phd{
+    background-color: rgb(29, 1, 29);
+    padding: 1rem;
+}
+@media only screen and (max-width: 600px){
+    .phd{
+    background-color: red;
+    padding: 0.01rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+}
